@@ -1,0 +1,30 @@
+.vehiculeCard .textPart {
+    transition: transform 0.3s ease-out;
+  }
+.vehiculeCard:hover .textPart{
+    transform: translateY(-1rem);
+
+}
+
+.vehiculeCard:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.vehiculeCard {
+  width: 18rem; /* Ajustez la largeur comme vous le souhaitez */
+  height: 8rem; /* Ajustez la hauteur comme vous le souhaitez */
+  border: 1px solid #ddd; /* Ajustez les styles de bordure si nécessaire */
+  margin: 2rem; /* Ajustez la marge pour l'espacement */
+  transition: all 0.3s ease; /* Transition pour les effets d'animation */
+  margin-bottom: 7rem;
+  margin-right: 5rem;
+
+}
+
+.vehiculeCard img {
+  height: 100%; /* Ajustez la hauteur de l'image */
+  object-fit: cover; /* Assurez-vous que l'image couvre toute la zone */
+}
+
+.textPart {
+  padding: 0.01rem; /* Ajustez le padding */
+}

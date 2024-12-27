@@ -1,0 +1,8 @@
+// Action Types
+export const DELETE_USER_REQUEST = 'DELETE_USER__REQUEST';
+export const DELETE_USER_SUCCESS = 'DELETE_USER_SUCCESS';
+export const DELETE_USER_FAILURE = 'DELETE_USER_FAILURE';
+
+
+
+
